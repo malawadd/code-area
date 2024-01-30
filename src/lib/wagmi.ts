@@ -32,10 +32,10 @@ const wagmiConfig = createConfig(
   getDefaultConfig({
     alchemyId,
     walletConnectProjectId: walletConnectProjectID,
-    appName: "Crypto Defense",
+    appName: "Survival",
     appDescription: "Isometric game. Build and Defence in the onchain crypto world",
-    appUrl: "https://crypto-defense.vercel.app",
-    appIcon: "https://crypto-defense.vercel.app//assets/logotype.png",
+    appUrl: "https://code-area-roan.vercel.app/",
+    appIcon: "https://code-area-roan.vercel.app/assets/logotype.png",
     chains: [areonNetworkTestnet]
     
   }),
