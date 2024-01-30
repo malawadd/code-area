@@ -4,7 +4,6 @@ import { parseAbiItem } from "viem";
 import { FactionId, PetId, Tier, Swatch, Metadata, Wawa } from "@type/wawa";
 import { client } from "./wagmi";
 
-// https://etherscan.io/token/0x2d9181b954736971bb74043d4782dfe93b55a9af#code
 const wawaNftAddress = "0xEF7C1E1DC555e443b7FA004ceF5f12a07CB2aB95" as const;
 // const wawaNftABI = [
 //   {
