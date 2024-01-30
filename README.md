@@ -15,11 +15,9 @@
 <p align="center">
   <a href="#introduction">Introduction</a> •
   <a href="#key-features">Key Features</a> •
-  <a href="#usage">Usage</a> •
   <a href="#local-deployment">Local deployment</a> •
-  <a href="#beaaaming-design-principle">Beaaaming Design Principle</a> •
-  <a href="#beam-accounts">beam accounts </a> •
-  <a href="#beam-sdk">beam sdk </a> •
+  <a href="#smart-contracts-deployments">smart contracts deployments</a> •
+  <a href="#limitations">limitations </a> •
   <a href="#license">License</a>
 </p>
 
