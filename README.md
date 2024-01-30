@@ -1,49 +1,73 @@
-# Phaser 3 TypeScript Project Template
+# Survival
+ 
 
-This quick-start project template combines Phaser 3.60 with [TypeScript 5](https://www.typescriptlang.org/) and uses [Rollup](https://rollupjs.org) for bundling.
+  
+<h1 align="center">
+  <br>
+  <a href=""><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpP08WXrpiC7unhN0oDo8qp_DUua5vDX9MPHLrMF54imsowsaIu3-deazJ3TBUkHFTjEGJc6MGm6QA7aftuWdffOVzOug4gBpEacGKm6ACAkXoPFXQPzXedJmZwyj8XlXrBfaHR0yRUr-fYlqk5nAXJGx4m4fSffogKzWsnomYyWqL0-9B0xzh8NqtDW8/s960/our%20Goal.png" width="300"></a>
+  <br>
+  Project Survival 
+  <br>
+</h1>
 
-## Requirements
+<h4 align="center">Survive Waves, Level Up, Conquer Foes - All with Your NFT!</h4>
 
-[Node.js](https://nodejs.org) is required to install dependencies and run scripts via `npm`.
+<p align="center">
+  <a href="#introduction">Introduction</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#local-deployment">Local deployment</a> •
+  <a href="#beaaaming-design-principle">Beaaaming Design Principle</a> •
+  <a href="#beam-accounts">beam accounts </a> •
+  <a href="#beam-sdk">beam sdk </a> •
+  <a href="#license">License</a>
+</p>
 
-## Available Commands
+![screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieZPalAwowt-sB2JqWU8IjnFUfnx8I-shXaq03tyJWBSq5JoFikYlz38_YZPlUf99c4Sg2x30ZJdlSFAHkkMib9KICO8lJzeiFr4e3wFRB1Pg5vJfip0uRGzpgZx96RxnHoSW5Hx2M0lUXX1gUXv6YO4-NMEUGfvAwp6j2smnrFYYbdw90npaDPwfXZwQ/s1000/Untitled-1-Recovered.png)
 
-| Command | Description |
-|---------|-------------|
-| `npm install` | Install project dependencies |
-| `npm run watch` | Build project and open web server running project, watching for changes |
-| `npm run dev` | Builds project and open web server, but do not watch for changes |
-| `npm run build` | Builds code bundle with production settings (minification, no source maps, etc..) |
+## Introduction 
 
-## Writing Code
+In this extraordinary gaming adventure, we redefine the very essence of tower defense. Gone are the days of mere survival; enter a realm where your NFTs become the heartbeat of your strategy, each one possessing the potential to evolve, level up, and emerge as an unstoppable force against waves of relentless enemies. This isn't just a game; it's a journey into the synergy of cutting-edge game development and the decentralized power of blockchain.
 
-After cloning the repo, run `npm install` from your project directory. Then, you can start the local development
-server by running `npm run watch`. The first time you run this you should see the following demo run:
+## Key Features
 
-![Screenshot](screenshot.png "Phaser 3 Example")
+Key Features of Project Survival :
 
-After starting the development server with `npm run watch`, you can edit any files in the `src` folder
-and Rollup will automatically recompile and reload your server (available at `http://localhost:10001`
-by default).
+1. **Dynamic NFT Integration:** Dive into the forefront of gaming innovation with NFTs. Watch as these digital assets evolve, adapt, and bring a new layer of strategy to your gameplay. Transforming static assets into dynamic, strategic entities, Dynamic NFTs redefine your gaming experience.
 
-## Configuring Rollup
+2. **Strategic Tower Defense:** In the world of isometric tower defense battles, strategic brilliance is your greatest asset. Plan your moves thoughtfully, defend against waves of enemies, and secure victory with precise calculations. It's not just a game; it's a strategic challenge where every decision matters.
 
-* Edit the file `rollup.config.dev.js` to edit the development build.
-* Edit the file `rollup.config.dist.js` to edit the distribution build.
+3. **Phaser-Powered Excellence::** Experience gaming at its peak with Phaser, a state-of-the-art game engine. This technology seamlessly combines visual excellence with immersive gameplay, ensuring a gaming experience that sets a new standard in the industry.
 
-You will find lots of comments inside the rollup config files to help you do this.
+4. **NFT Leveling System:** Take your NFTs from beginners to champions through our sophisticated leveling system. Each strategic decision you make directly influences the growth of your assets. Witness a dynamic and personalized gaming journey as your NFTs progress and adapt.
 
-Note that due to the build process involved, it can take around 20 seconds to build the initial bundle. Times will vary based on CPU and local drive speeds. The development config does not minify the code in order to save build time, but it does generate source maps. If you do not require these, disable them in the config to speed it up further.
+5. **Areon Network Synergy:** Maximize the potential of your NFTs through seamless integration into the decentralized Areon Network. Trade, exchange, and connect with a vibrant gaming community
 
-## Versions Used
 
-* Phaser 3.60
-* TypeScript 5.0.3
-* Rollup 3.20.2
-* Rollup Plugins:
-  * @rollup/plugin-commonjs 24.0.1
-  * @rollup/plugin-node-resolve 15.0.2
-  * @rollup/plugin-replace 5.0.2
-  * @rollup/plugin-terser 0.4.0
-  * @rollup/plugin-typescript 11.1.0
-  * rollup-plugin-serve 2.0.2
+## Local deployment
+
+a. install dep
+
+```bash
+npm i
+```
+
+b. run the app 
+
+```bash
+npm run dev
+```
+
+## smart contracts deployments 
+
+NFT contract : [0xEF7C1E1DC555e443b7FA004ceF5f12a07CB2aB95](https://areonscan.com/contracts/0xef7c1e1dc555e443b7fa004cef5f12a07cb2ab95) 
+
+
+## limitations 
+
+- In the demo is using `wagmiLog` as such it will only query the last 10k blocks. 
+- the nft only have one character which is `RED` 
+
+## License
+
+MIT

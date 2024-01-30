@@ -25,7 +25,7 @@ export const GameclearUI: React.FC<Props> = ({ stat, record }) => {
   };
 
   const shareOnTwitter = () => {
-    const text = `I scored ${stat.score} points! Can you beat my score? https://crypto-defense.vercel.app/ #CryptoDefense`;
+    const text = `I scored ${stat.score} points! Can you beat my score? https://code-area-roan.vercel.app/  #SurvivalNft  #Areonchain  `;
     const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
       text
     )}`;
